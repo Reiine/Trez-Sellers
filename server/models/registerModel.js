@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/trez-sellers')
+mongoose.connect('mongodb+srv://reiine:testpass@cluster0.u7inkuy.mongodb.net/trezData')
 .then(()=>{
     console.log("Mongoose connected");
 })
@@ -22,5 +22,5 @@ const registerSchema = new mongoose.Schema({
     }
 })
 
-const registerModel = new mongoose.model('users',registerSchema);
+const registerModel = new mongoose.model('seller-users',registerSchema);
 module.exports = registerModel;

@@ -180,6 +180,46 @@ body{
 
 /* LOGIN END */
 
+/* DASHBOARD */
+
+
+.seller-info{
+  margin-left: 5.5rem;
+  font-size: 1.5rem;
+  padding: 5rem;
+  padding-top: 9rem;
+  padding-left: 0;
+}
+
+.nav-link:not(.active){
+  color: whitesmoke!important;
+}
+.tabs-cover{
+  margin: 0 5rem;
+}
+/* ADD PRODUCTS */
+
+.add-products-cover{
+  margin-top: 10rem;
+}
+
+/* ADD PRODUCTS END */
+
+/* YOUR PRODUCTS */
+.cart-item{
+  padding: 2rem;
+  margin:2rem 5rem auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-item img{
+  height: 7rem;
+}
+/* YOUR PRODUCTS END */
+
+/* DASHBOARD END */
+
 /* FOOTER */
 
 .footer-cover{
